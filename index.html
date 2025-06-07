@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SELAH - Contact Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1b3556;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .logo {
+      display: block;
+      margin: 20px auto;
+      max-width: 150px;
+    }
+
+    .description {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    h3 {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .highlight {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    main {
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: white;
+      color: #1b3556;
+      padding: 12px 20px;
+      margin: 8px 0;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      width: 80%;
+    }
+
+    .branches {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .branch {
+      background-color: white;
+      color: #1b3556;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 6px;
+      width: 45%;
+      box-sizing: border-box;
+    }
+
+    .branch .flag {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .branch .flag img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    .branch p {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+
+    .branch img {
+      vertical-align: middle;
+      width: 16px;
+      height: 16px;
+      margin-right: 5px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .branches {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .branch {
+        width: 90%;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="Main Logo White .png" alt="Company Logo" class="logo">
+      <p class="description">
+        SELAH is an international company that focuses on trade, consultancy,
+      </p>
+      <p class="description"> and lifestyle excellence under one global brand.</p>
+      <h3>Let <span class="highlight">Get In Touch NOW!</span></h3>
+    </header>
+
+    <main>
+      <a href="https://wa.me/your-whatsapp-link" class="btn">Chat with us on Whatsapp</a>
+      <a href="https://instagram.com/your-instagram-link" class="btn">Check our Instagram Page</a>
+      <a href="https://facebook.com/your-facebook-link" class="btn">Check our Facebook Page</a>
+      <a href="https://tiktok.com/@your-tiktok-link" class="btn">Follow us on TikTok</a>
+      <a href="https://your-website-link.com" class="btn">Check our website</a>
+      <a href="mailto:contact@yourcompany.com" class="btn">Send us an Email</a>
+    </main>
+
+    <section class="branches">
+      <div class="branch">
+        <div class="flag">
+          <img src="china flag.jpeg" alt="China Flag">
+          <span>CHINA BRANCH</span>
+        </div>
+        <p><img src="Address icon.png" alt="Location Icon"> 181, Nansha District, Guangzhou</p>
+        <p><img src="Tel Icon.png" alt="Phone Icon"> +8619874050473</p>
+      </div>
+
+      <div class="branch">
+        <div class="flag">
+          <img src="cameron flag.jpeg" alt="Cameroon Flag">
+          <span>CAMERON BRANCH</span>
+        </div>
+        <p><img src="Address icon.png" alt="Location Icon"> Douala, <span class="highlight">Ancien Air France</span>, <span class="highlight">Bonanjo</span></p>
+        <p><img src="Tel Icon.png" alt="Phone Icon"> +230 5905 2823 / +237 652 191 556</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
